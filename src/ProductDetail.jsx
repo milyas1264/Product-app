@@ -25,7 +25,7 @@ function ProductDetail() {
       <p className="text-gray-700 mb-2">{product.description}</p>
       <p className="text-xl font-semibold mb-4">${product.price}</p>
       <button
-        className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+        className="bg-amber-200 text-white px-4 py-2 rounded hover:bg-green-700"
         onClick={() => alert(`${product.title} added to cart!`)}
       >
         Add to Cart

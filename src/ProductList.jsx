@@ -12,7 +12,7 @@ function ProductList() {
   }, []);
 
   return (
-    <div className=" text-center">
+    <div className=" text-center container mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-center">All Products</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto ">
         {products.map((product) => (
